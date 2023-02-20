@@ -34,10 +34,10 @@ h3 {
 .result__heading {
   margin: 0;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.125rem;
+  line-height: 1.438rem;
   text-align: center;
-  color: #cac9ff;
+  color: hsl(241deg, 100%, 89%);
 }
 .result__numbers {
   margin-top: 24px;
@@ -47,17 +47,17 @@ h3 {
 }
 .result__numbers__score {
   font-weight: 800;
-  font-size: 56px;
-  line-height: 72px;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   text-align: center;
   color: #ffffff;
   margin: 0;
 }
 .result__numbers__of-100 {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  color: #cac9ff;
+  font-size: 1rem;
+  line-height: 1.313rem;
+  color: hsl(241deg, 100%, 89%);
   mix-blend-mode: normal;
   opacity: 0.52;
   margin: 0;
@@ -66,45 +66,45 @@ h3 {
 .result__great {
   margin-top: 24px;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 31px;
+  font-size: 1.5rem;
+  line-height: 1.938rem;
   text-align: center;
   color: #ffffff;
 }
 .result__para {
   margin-top: 8px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1rem;
+  line-height: 1.313rem;
   text-align: center;
-  color: #cac9ff;
+  color: hsl(241deg, 100%, 89%);
 }
 
 .summary {
   padding: 24px 30px 30px;
 }
 .summary #reaction {
-  color: #ff5555;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ff5555;
+  color: hsl(0deg, 100%, 67%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), hsl(0deg, 100%, 67%);
 }
 .summary #memory {
-  color: #ffb21e;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #ffb21e;
+  color: hsl(39deg, 100%, 56%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), hsl(39deg, 100%, 56%);
 }
 .summary #verbal {
-  color: #00bb8f;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00bb8f;
+  color: hsl(166deg, 100%, 37%);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), hsl(166deg, 100%, 37%);
 }
 .summary #visual {
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125d6;
-  color: #1125d6;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), hsl(234deg, 85%, 45%);
+  color: hsl(234deg, 85%, 45%);
 }
 .summary__heading {
   margin-left: 2px;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  color: #303b59;
+  font-size: 1.125rem;
+  line-height: 1.438rem;
+  color: hsl(224deg, 30%, 27%);
   margin-bottom: 24px;
 }
 .summary__details {
@@ -116,30 +116,30 @@ h3 {
 .summary__details__category {
   margin-left: 12px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1rem;
+  line-height: 1.313rem;
 }
 .summary__details__score {
   margin-left: auto;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1rem;
+  line-height: 1.313rem;
   text-align: right;
-  color: #303b59;
+  color: hsl(224deg, 30%, 27%);
 }
 .summary__details__score--light {
   opacity: 0.5;
   margin-left: 8px;
 }
 .summary__details__button {
-  background: #303b59;
+  background: hsl(224deg, 30%, 27%);
   border-radius: 128px;
   border: none;
   font-family: "Hanken Grotesk";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.125rem;
+  line-height: 1.438rem;
   text-align: center;
   color: #ffffff;
   width: 100%;
@@ -171,31 +171,31 @@ h3 {
     justify-content: flex-start;
   }
   .result__heading {
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.5rem;
+    line-height: 1.938rem;
   }
   .result__numbers {
     margin-top: 35px;
     padding: 55px 60px 46px 59px;
   }
   .result__numbers__score {
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
   }
   .result__numbers__of-100 {
     margin-top: 4px;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
   }
   .result__great {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 2rem;
+    line-height: 2.625rem;
     margin-top: 28px;
   }
   .result__para {
     margin-top: 14px;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
     text-align: center;
   }
   .summary {
@@ -204,8 +204,8 @@ h3 {
   }
   .summary__heading {
     margin-left: 0;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.5rem;
+    line-height: 1.938rem;
     margin-bottom: 28px;
   }
   .summary__details {
@@ -213,17 +213,21 @@ h3 {
   }
   .summary__details__category {
     margin-left: 12px;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
   }
   .summary__details__score {
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
   }
   .summary__details__score--light {
     margin: 3px;
   }
   .summary__details__button {
     margin-top: 41px;
+  }
+  .summary__details__button:hover {
+    background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+    cursor: pointer;
   }
 }/*# sourceMappingURL=styles.css.map */

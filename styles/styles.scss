@@ -1,3 +1,10 @@
+$reaction: hsl(0, 100%, 67%);
+$memory: hsl(39, 100%, 56%);
+$verbal: hsl(166, 100%, 37%);
+$visual: hsl(234, 85%, 45%);
+$dark-navy: hsl(224, 30%, 27%);
+$para: hsl(241, 100%, 89%);
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -34,10 +41,10 @@ h3 {
   &__heading {
     margin: 0;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
     text-align: center;
-    color: #cac9ff;
+    color: $para;
   }
 
   &__numbers {
@@ -53,8 +60,8 @@ h3 {
 
     &__score {
       font-weight: 800;
-      font-size: 56px;
-      line-height: 72px;
+      font-size: 3.5rem;
+      line-height: 4.5rem;
       text-align: center;
       color: #ffffff;
       margin: 0;
@@ -62,9 +69,9 @@ h3 {
 
     &__of-100 {
       font-weight: 700;
-      font-size: 16px;
-      line-height: 21px;
-      color: #cac9ff;
+      font-size: 1rem;
+      line-height: 1.313rem;
+      color: $para;
       mix-blend-mode: normal;
       opacity: 0.52;
       margin: 0;
@@ -75,8 +82,8 @@ h3 {
   &__great {
     margin-top: 24px;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 1.5rem;
+    line-height: 1.938rem;
     text-align: center;
     color: #ffffff;
   }
@@ -84,10 +91,10 @@ h3 {
   &__para {
     margin-top: 8px;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
+    font-size: 1rem;
+    line-height: 1.313rem;
     text-align: center;
-    color: #cac9ff;
+    color: $para;
   }
 }
 
@@ -95,33 +102,33 @@ h3 {
   padding: 24px 30px 30px;
 
   #reaction {
-    color: #ff5555;
+    color: $reaction;
     background: linear-gradient(
         0deg,
         rgba(255, 255, 255, 0.95),
         rgba(255, 255, 255, 0.95)
       ),
-      #ff5555;
+      $reaction;
   }
 
   #memory {
-    color: #ffb21e;
+    color: $memory;
     background: linear-gradient(
         0deg,
         rgba(255, 255, 255, 0.95),
         rgba(255, 255, 255, 0.95)
       ),
-      #ffb21e;
+      $memory;
   }
 
   #verbal {
-    color: #00bb8f;
+    color: $verbal;
     background: linear-gradient(
         0deg,
         rgba(255, 255, 255, 0.95),
         rgba(255, 255, 255, 0.95)
       ),
-      #00bb8f;
+      $verbal;
   }
 
   #visual {
@@ -130,16 +137,16 @@ h3 {
         rgba(255, 255, 255, 0.95),
         rgba(255, 255, 255, 0.95)
       ),
-      #1125d6;
-    color: #1125d6;
+      $visual;
+    color: $visual;
   }
 
   &__heading {
     margin-left: 2px;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
-    color: #303b59;
+    font-size: 1.125rem;
+    line-height: 1.438rem;
+    color: $dark-navy;
     margin-bottom: 24px;
   }
 
@@ -152,17 +159,17 @@ h3 {
     &__category {
       margin-left: 12px;
       font-weight: 500;
-      font-size: 16px;
-      line-height: 21px;
+      font-size: 1rem;
+      line-height: 1.313rem;
     }
 
     &__score {
       margin-left: auto;
       font-weight: 700;
-      font-size: 16px;
-      line-height: 21px;
+      font-size: 1rem;
+      line-height: 1.313rem;
       text-align: right;
-      color: #303b59;
+      color: $dark-navy;
 
       &--light {
         opacity: 0.5;
@@ -171,14 +178,14 @@ h3 {
     }
 
     &__button {
-      background: #303b59;
+      background: $dark-navy;
       border-radius: 128px;
       border: none;
       font-family: "Hanken Grotesk";
       font-style: normal;
       font-weight: 700;
-      font-size: 18px;
-      line-height: 23px;
+      font-size: 1.125rem;
+      line-height: 1.438rem;
       text-align: center;
       color: #ffffff;
       width: 100%;
@@ -214,8 +221,8 @@ h3 {
     width: 23rem;
     justify-content: flex-start;
     &__heading {
-      font-size: 24px;
-      line-height: 31px;
+      font-size: 1.5rem;
+      line-height: 1.938rem;
     }
 
     &__numbers {
@@ -223,27 +230,27 @@ h3 {
       padding: 55px 60px 46px 59px;
 
       &__score {
-        font-size: 72px;
-        line-height: 72px;
+        font-size: 4.5rem;
+        line-height: 4.5rem;
       }
 
       &__of-100 {
         margin-top: 4px;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 1.125rem;
+        line-height: 1.438rem;
       }
     }
 
     &__great {
-      font-size: 32px;
-      line-height: 42px;
+      font-size: 2rem;
+      line-height: 2.625rem;
       margin-top: 28px;
     }
 
     &__para {
       margin-top: 14px;
-      font-size: 18px;
-      line-height: 23px;
+      font-size: 1.125rem;
+      line-height: 1.438rem;
       text-align: center;
     }
   }
@@ -254,8 +261,8 @@ h3 {
 
     &__heading {
       margin-left: 0;
-      font-size: 24px;
-      line-height: 31px;
+      font-size: 1.5rem;
+      line-height: 1.938rem;
       margin-bottom: 28px;
     }
 
@@ -264,13 +271,13 @@ h3 {
 
       &__category {
         margin-left: 12px;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 1.125rem;
+        line-height: 1.438rem;
       }
 
       &__score {
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 1.125rem;
+        line-height: 1.438rem;
 
         &--light {
           margin: 3px;
@@ -278,6 +285,16 @@ h3 {
       }
       &__button {
         margin-top: 41px;
+
+        &:hover {
+          background: linear-gradient(
+            180deg,
+            #7755ff 0%,
+            #6943ff 0.01%,
+            #2f2ce9 100%
+          );
+          cursor: pointer;
+        }
       }
     }
   }
